@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/tv_label_margin">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.75"
+                android:text="@string/title"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_sub_title_size" />
+
+            <TextView
+                android:id="@+id/tv_edu_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:layout_weight="0.22"
+                android:gravity="center"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_edu_start_dt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.75"
+                android:text="@string/start_date"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_sub_title_size" />
+
+            <TextView
+                android:id="@+id/tv_edu_start_dt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:layout_weight="0.22"
+                android:gravity="center"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_edu_end_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.75"
+                android:text="@string/end_date"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_sub_title_size" />
+
+            <TextView
+                android:id="@+id/tv_edu_end_dt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:layout_weight="0.22"
+                android:gravity="center"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_edu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.75"
+                android:text="@string/College_name"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_sub_title_size" />
+
+            <TextView
+                android:id="@+id/tv_edu_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:layout_weight="0.22"
+                android:gravity="center"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_edu_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.75"
+                android:text="@string/city"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_sub_title_size" />
+
+            <TextView
+                android:id="@+id/tv_edu_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:layout_weight="0.22"
+                android:gravity="center"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_edu_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.75"
+                android:text="@string/country"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_sub_title_size" />
+
+            <TextView
+                android:id="@+id/tv_edu_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:layout_weight="0.22"
+                android:gravity="center"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="@dimen/rv_margin"
+        android:background="@color/lighter_grey" />
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

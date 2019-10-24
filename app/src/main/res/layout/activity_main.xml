@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.MainActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/tv_label_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rv_margin"
+            android:layout_marginStart="@dimen/rv_margin"
+            android:layout_marginEnd="@dimen/rv_margin"
+            android:layout_marginBottom="@dimen/rv_top_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:text="@string/name"
+                android:textColor="@color/darker_grey"
+                android:textSize="@dimen/tv_label_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/tv_label_margin"
+                android:layout_marginStart="@dimen/tv_label_margin"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_mid_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:text="@string/summary"
+                android:textColor="@color/darker_grey"
+                android:textSize="@dimen/tv_label_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/tv_label_margin"
+                android:layout_marginStart="@dimen/tv_label_margin"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/tv_size" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cv_start_end_margin"
+                android:layout_marginEnd="@dimen/cv_start_end_margin"
+                android:layout_marginBottom="@dimen/tv_label_margin"
+                android:layout_marginTop="@dimen/tv_label_margin"
+                app:cardCornerRadius="5dp"
+                app:cardMaxElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_contact_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/tv_label_margin"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/tv_contact_title"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:text="@string/contact"
+                            android:textColor="@color/darker_grey"
+                            android:textSize="@dimen/tv_sub_title_size" />
+
+                        <ImageView
+                            android:id="@+id/iv_contact_x"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="0.95"
+                            android:rotation="45"
+                            android:src="@drawable/x_grey" />
+
+                    </LinearLayout>
+
+                   <LinearLayout
+                       android:id="@+id/ll_contact"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       android:visibility="gone">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginEnd="@dimen/tv_label_margin"
+                           android:layout_marginStart="@dimen/tv_label_margin"
+                           android:layout_marginTop="@dimen/tv_label_margin"
+                           android:orientation="horizontal"
+                           android:weightSum="1">
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_weight="0.75"
+                               android:text="@string/linkedin"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_sub_title_size" />
+
+                           <TextView
+                               android:id="@+id/tv_cont_linkedin_id"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_weight="0.3"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_size" />
+                       </LinearLayout>
+
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginEnd="@dimen/tv_label_margin"
+                           android:layout_marginStart="@dimen/tv_label_margin"
+                           android:orientation="horizontal"
+                           android:weightSum="1">
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="@dimen/tv_label_margin"
+                               android:layout_weight="0.75"
+                               android:text="@string/skype"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_sub_title_size" />
+
+                           <TextView
+                               android:id="@+id/tv_cont_skype_id"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="@dimen/tv_label_margin"
+                               android:layout_weight="0.3"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_size" />
+
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginEnd="@dimen/tv_label_margin"
+                           android:layout_marginStart="@dimen/tv_label_margin"
+                           android:orientation="horizontal"
+                           android:weightSum="1">
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="@dimen/tv_label_margin"
+                               android:layout_weight="0.75"
+                               android:text="@string/email"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_sub_title_size" />
+
+
+                           <TextView
+                               android:id="@+id/tv_cont_email"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="@dimen/tv_label_margin"
+                               android:layout_weight="0.3"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_size" />
+
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginEnd="@dimen/tv_label_margin"
+                           android:layout_marginStart="@dimen/tv_label_margin"
+                           android:orientation="horizontal"
+                           android:weightSum="1">
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="@dimen/tv_label_margin"
+                               android:layout_weight="0.75"
+                               android:text="@string/github"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_sub_title_size" />
+
+                           <TextView
+                               android:id="@+id/tv_cont_github"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="@dimen/tv_label_margin"
+                               android:layout_weight="0.3"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_size" />
+
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginEnd="@dimen/tv_label_margin"
+                           android:layout_marginStart="@dimen/tv_label_margin"
+                           android:layout_marginBottom="@dimen/rv_margin"
+                           android:orientation="horizontal"
+                           android:weightSum="1">
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="@dimen/tv_label_margin"
+                               android:layout_weight="0.75"
+                               android:text="@string/city"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_sub_title_size" />
+
+                           <TextView
+                               android:id="@+id/tv_cont_city"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="@dimen/tv_label_margin"
+                               android:layout_weight="0.3"
+                               android:textColor="@color/text_grey"
+                               android:textSize="@dimen/tv_size" />
+
+                       </LinearLayout>
+
+                   </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cv_start_end_margin"
+                android:layout_marginEnd="@dimen/cv_start_end_margin"
+                android:layout_marginBottom="@dimen/tv_label_margin"
+                app:cardCornerRadius="5dp"
+                app:cardMaxElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_work_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/tv_label_margin"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/tv_work_title"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:text="@string/Work"
+                            android:textColor="@color/darker_grey"
+                            android:textSize="@dimen/tv_sub_title_size" />
+
+                        <ImageView
+                            android:id="@+id/iv_work_x"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="0.95"
+                            android:rotation="45"
+                            android:src="@drawable/x_grey" />
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_work_Details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/tv_label_margin"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cv_start_end_margin"
+                android:layout_marginEnd="@dimen/cv_start_end_margin"
+                android:layout_marginBottom="@dimen/tv_label_margin"
+                app:cardCornerRadius="5dp"
+                app:cardMaxElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/tv_label_margin"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/tv_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:text="@string/education"
+                            android:textColor="@color/darker_grey"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/tv_sub_title_size" />
+
+                        <ImageView
+                            android:id="@+id/iv_x"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="0.95"
+                            android:rotation="45"
+                            android:src="@drawable/x_grey" />
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_edu_Details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/tv_label_margin"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cv_start_end_margin"
+                android:layout_marginEnd="@dimen/cv_start_end_margin"
+                android:layout_marginBottom="@dimen/rv_top_margin"
+                app:cardCornerRadius="5dp"
+                app:cardMaxElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_language_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/tv_label_margin"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/tv_lang_title"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:text="@string/language"
+                            android:textColor="@color/darker_grey"
+                            android:textSize="@dimen/tv_sub_title_size" />
+
+                        <ImageView
+                            android:id="@+id/iv_lang_x"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="0.95"
+                            android:rotation="45"
+                            android:src="@drawable/x_grey" />
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_language_Details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/tv_label_margin"
+                        android:layout_marginBottom="@dimen/rv_top_margin"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

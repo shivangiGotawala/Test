@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_margin">10dp</dimen>
+    <dimen name="tv_label_margin">10dp</dimen>
+    <dimen name="rv_top_margin">20dp</dimen>
+    <dimen name="cv_margin">15dp</dimen>
+    <dimen name="tv_size">12sp</dimen>
+    <dimen name="tv_label_size">20sp</dimen>
+    <dimen name="tv_mid_size">15sp</dimen>
+    <dimen name="tv_sub_title_size">13sp</dimen>
+    <dimen name="rv_margin">5dp</dimen>
+    <dimen name="cv_start_end_margin">3dp</dimen>
+    <dimen name="tv_name_size">30sp</dimen>
+</resources>

@@ -1,0 +1,81 @@
+{
+  "resume": {
+    "name": "Shivangi Gotawala",
+    "summary": "Strong interpersonal, and presentation skills achieved by interacting with different personalities and behaviors of multiple customers.Skilled in building positive relationships by handling, managing, and solving conflicts at workplace. Ability to do hard work and multitask by attending multiple customers at a same time and yielding satisfactory results by meeting their expectations.Knowledge of Android Studio, Microsoft Word, Power Point, and Excel, HTML, Java, JavaScript, C, C++, and MS Access gained while working.Good negotiation and team building skills by working with multiple employees at workplace.Ability to work coordinately and cooperatively in a diverse environment and culture with different individuals.Increased knowledge of developing and implementing applications based on client’s needs.Ability to maintain existing computer programs by making modification as required. Identify and communicate technical programs, process and solutions. Prepare reports, manuals and other documentation on the status, operation, and maintenance of software.",
+    "contact": {
+      "linked_in": "www.linkedin.com/in/shivangi-gotawala-435469137/",
+      "skype_id": "shivangimarwadi",
+      "email": "shivangimarwadi3375@gmail.com",
+      "github": "https://github.com/shivangiGotawala",
+      "city": "British Columbia, Canada"
+    },
+    "education": [
+      {
+          "title": "Bachelor of Computer Science",
+          "start-date": "Aug, 2014",
+          "end-date": "May, 2017",
+          "name": "Bhagwan Mahavir College of Engineering and Technology ",
+          "city": "Surat",
+          "country": "India"
+      },
+      {
+          "title": "Diploma in Computer Science",
+          "start-date": "Aug, 2011",
+          "end-date": "May, 2014",
+          "name": "Government Polytechnic for girls",
+          "city": "Surat",
+          "country": "India"
+      }
+    ],
+    "work": [
+      {
+
+          "start-date": "May, 2019",
+          "end-date": "Present",
+          "position": "Android Application Developer",
+          "name": "Etreat Medical Diagnostics Inc.",
+          "city": "Vancouver, BC",
+          "country": "Canada",
+          "description": "Developed application is a medical application which is specially use for detecting skin acne and other skin related blemishes. It suggests different products to users according to their skin type and also provide guidelines towards their diet.third party library and Git integration.Authenticated Facebook,Google and Twitter.",
+          "technologies": [
+            "Xml",
+            "Java",
+            "JSON",
+            "REST Api"
+          ]
+      },
+      {
+          "start-date": "Oct 2017",
+          "end-date": "Dec 2018",
+          "position": "Android Application Developer",
+          "name": "Inspiren Infotech ",
+          "city": "Surat",
+          "country": "India",
+          "description": "Developed an application which is based on storing information regarding the user’s need on regular basis. This application has a various functions like a user can add the documents, reminder functionality, subscription facility, scanning photographs and QR codes. Added Google Ads with the help of Google AdSense tool and also integrated different mediation.",
+          "technologies": [
+            "Java",
+            "Xml"
+          ]
+      },
+      {
+          "start-date": "May 2017",
+          "end-date": "Oct 2017",
+          "position": "Java and Android Application Developer",
+          "name": "Qwesys digital solution",
+          "city": "Surat",
+          "country": "India",
+          "description": "Developed a website to generate an invoice of clients and store them details such as company name or client name, number of services, total amount plus taxes in database. Facilitated in calculating amount with an addition of tax on button click, email and notification service as reminder of payment. In addition, it calculates total income and expanse of own company represented by graph.",
+          "technologies": [
+            "Java",
+            "Java frameworks like spring, hibernate",
+            "Xml"
+          ]
+      }
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Gujarati"
+    ]
+  }
+}

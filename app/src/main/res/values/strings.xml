@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ShivangiGotawalaTest</string>
+    <string name="name">Name</string>
+    <string name="College_name">College Name</string>
+    <string name="summary">Summary</string>
+    <string name="contact">Contact info</string>
+    <string name="linkedin">LinkedIn : </string>
+    <string name="skype">Skype :</string>
+    <string name="email">Email</string>
+    <string name="github">Github :</string>
+    <string name="city">City</string>
+    <string name="title">Title</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="country">Country</string>
+    <string name="position">Position</string>
+    <string name="education">Education</string>
+    <string name="Work">Work History</string>
+    <string name="language">Language</string>
+    <string name="Company_name">Compnay name</string>
+    <string name="description">Description</string>
+    <string name="technology">Technology</string>
+    <string name="candid_name">Shivangi Gotawala</string>
+</resources>
