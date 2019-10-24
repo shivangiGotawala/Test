@@ -25,28 +25,7 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
-//    @Test
-//    public void useAppContext() {
-//         Context of the app under test.
-//
-//
-//        Context appContext = InstrumentationRegistry.getTargetContext();
-//
-//        assertEquals("example.com.shivangigotawalatest", appContext.getPackageName());
-//
-//        onView(withId(R.id.cv_contact))
-//                .perform(click());
-//
-//        onView(withId(R.id.cv_work))
-//                .perform(click());
-//
-//        onView(withId(R.id.cv_education))
-//                .perform(click());
-//
-//        onView(withId(R.id.cv_language))
-//                .perform(click());
-//    }
-
+    
     @Rule
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(MainActivity.class);
 
