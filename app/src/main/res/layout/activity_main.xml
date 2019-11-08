@@ -6,10 +6,11 @@
     android:layout_height="wrap_content"
     tools:context=".Activity.MainActivity">
 
-    <android.support.v4.widget.NestedScrollView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/tv_label_margin">
+        android:layout_margin="@dimen/tv_label_margin"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,10 +21,18 @@
             android:layout_marginBottom="@dimen/rv_top_margin"
             android:orientation="vertical">
 
+            <Button
+               android:id="@+id/btn_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/server_data"
+                android:textAllCaps="false"
+                android:layout_margin="@dimen/rv_margin"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/tv_label_margin"
+                android:layout_marginTop="@dimen/rv_top_margin"
                 android:text="@string/name"
                 android:textColor="@color/darker_grey"
                 android:textSize="@dimen/tv_label_size"
@@ -425,6 +434,6 @@
 
         </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
